@@ -7,10 +7,10 @@ const Nav = () => {
         <img src={Logo} alt="" />
         <ul className="justify-between flex gap-4">
           <li className="text-pink-500">Home</li>
-          <li>Technologies</li>
-          <li>Projects</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li className="text-slate-400">Technologies</li>
+          <li className="text-slate-400">Projects</li>
+          <li className="text-slate-400">About</li>
+          <li className="text-slate-400">Contact</li>
         </ul>
         <div className="mr-4">
           <button className="btn rounded-2xl">Sign In</button>

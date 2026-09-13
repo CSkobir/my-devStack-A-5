@@ -84,9 +84,9 @@ const Techs = ({ techsPromise }: TechsProps) => {
 
       <div className="mb-6">
         <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-          Explore the Technologies
+          Explore the <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Technologies</span>
         </h2>
-        <p className="text-slate-500 mt-1">
+        <p className="text-slate-400 mt-1">
           Pick technologies to build your ideal custom stack.
         </p>
       </div>

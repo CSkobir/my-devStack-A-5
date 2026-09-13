@@ -20,14 +20,14 @@ const TechCard: React.FC<TechCardProps> = ({ tech, isAdded, onSelectTech }) => {
           />
         </div>
         {tech.badge && (
-          <div className="badge badge-secondary badge-outline text-xs px-2.5 py-1">
+          <div className="badge badge-secondary badge-outline text-xs px-2.5 py-1 bg-pink-300 border-0 rounded-2xl">
             {tech.badge}
           </div>
         )}
       </div>
       <div className="card-body p-6">
         <h2 className="card-title text-xl font-bold text-slate-800">{tech.name}</h2>
-        <p className="text-slate-600 text-sm mb-2">{tech.description}</p>
+        <p className="text-slate-400 text-sm mb-2">{tech.description}</p>
         <div className="flex justify-between items-center text-xs text-slate-500 my-2">
           <span className="font-semibold px-2 py-0.5 bg-slate-100 rounded-md capitalize">{tech.category}</span>
           <span className="font-medium">{tech.difficulty}</span>
