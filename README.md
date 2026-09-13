@@ -2,7 +2,7 @@ The Name of my Project id "Dev Stack"
 
 -->This Project is mainly works with all the Development tools we use in our day to day devlopments.
 
-Technology that i have used are => React, Node, TailwindCss, typeScript, vite, vercel, github etc
+Technology that i have used are => React, Node, TailwindCss, typeScript, vite, JSX, TSX, vercel, github etc
 
 3 features about your project are-->
 1.Shows all the techknowlogies available with proper description
